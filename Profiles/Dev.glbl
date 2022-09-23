@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Dev</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>HDFC dev URL</description>
+      <initValue>'https://devos.hdfc.com/LEAP/'</initValue>
+      <name>DevURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Username</description>
+      <initValue>'hdfcdomain\\PIM_PrateekV'</initValue>
+      <name>UserName_Credit_Appraiser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Abcd@2022'</initValue>
+      <name>Credit_Appraiser_Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'hdfcdomain\\ArunRitc'</initValue>
+      <name>Double_checker_UserName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'India@2022'</initValue>
+      <name>DoubleChecker_UserName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://devos.hdfc.com/LEAP/CustomerProfile'</initValue>
+      <name>URL_Customer_Profile</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
