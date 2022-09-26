@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2462eb85-b5be-48c2-b7d3-f236d418ec28</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>01f79157-8ebc-4e5f-9622-7ed6a5303acd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://devos.hdfc.com/LEAP/'</defaultValue>
+      <description></description>
+      <id>01f79157-8ebc-4e5f-9622-7ed6a5303acd</id>
+      <masked>false</masked>
+      <name>a</name>
+   </variable>
 </TestCaseEntity>

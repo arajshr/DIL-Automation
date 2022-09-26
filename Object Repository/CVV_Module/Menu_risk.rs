@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Menu_risk</name>
+   <tag></tag>
+   <elementGuidId>4a7fde07-3ec5-4c33-9214-7a43c5e07f5c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.custom-top-menu</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id='b3-l2-107_3-Menu2']/a/div/div/span
+
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ul</value>
+      <webElementGuid>ff8eeb3f-a461-4acf-89e1-ba90bfbfca5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-top-menu</value>
+      <webElementGuid>0781a315-493f-483e-8754-8feb429d3a28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DashboardCustomer ProfileLoan/Sourcing &amp; RepaymentRemarks &amp; DeviationsSpecial ConditionsObservationsCrosslinkFinancial DetailsIncomeBureauObligationBank DetailsBank AnalysisSavings and OCRRiskCCVRisk ConsoleCust Search (Negative Scrubbing)PropertyKYCFile RequirementsDC CommentsOthersEmployer SearchProperty SearchCalculatorFee ComputationDocument Viewer</value>
+      <webElementGuid>92f5653f-825e-4578-aa5c-69923a45720a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b3-PageLinks3&quot;)/ul[@class=&quot;custom-top-menu&quot;]</value>
+      <webElementGuid>e8cc39b7-c39e-496f-917e-10b491ee3bac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>c</value>
+      <webElementGuid>bfcbeeed-a191-413a-a391-84e29f94368a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip to Content (Press Enter)'])[1]/following::ul[1]</value>
+      <webElementGuid>c68c2393-63d9-40f0-9fce-557e50e69134</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul</value>
+      <webElementGuid>2e5641ba-f24a-4b13-84ab-18f0a1af0ed9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ul[(text() = 'DashboardCustomer ProfileLoan/Sourcing &amp; RepaymentRemarks &amp; DeviationsSpecial ConditionsObservationsCrosslinkFinancial DetailsIncomeBureauObligationBank DetailsBank AnalysisSavings and OCRRiskCCVRisk ConsoleCust Search (Negative Scrubbing)PropertyKYCFile RequirementsDC CommentsOthersEmployer SearchProperty SearchCalculatorFee ComputationDocument Viewer' or . = 'DashboardCustomer ProfileLoan/Sourcing &amp; RepaymentRemarks &amp; DeviationsSpecial ConditionsObservationsCrosslinkFinancial DetailsIncomeBureauObligationBank DetailsBank AnalysisSavings and OCRRiskCCVRisk ConsoleCust Search (Negative Scrubbing)PropertyKYCFile RequirementsDC CommentsOthersEmployer SearchProperty SearchCalculatorFee ComputationDocument Viewer')]</value>
+      <webElementGuid>492a70bc-aeab-4f38-b650-eea7f51a9693</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

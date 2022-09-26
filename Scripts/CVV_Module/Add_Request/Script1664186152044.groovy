@@ -14,16 +14,15 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.thoughtworks.selenium.webdriven.commands.GetValue as GetValue
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
-WebUI.waitForPageLoad(5)
-
 WebUI.navigateToUrl(GlobalVariable.DevURL)
+
+WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Sign In/UserName'), GlobalVariable.UserName_Credit_Appraiser)
 
@@ -33,11 +32,13 @@ WebUI.click(findTestObject('Sign In/Signin_Button'))
 
 WebUI.navigateToUrl(GlobalVariable.URL_Customer_Profile)
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(2)
 
-WebUI.setText(findTestObject('Customer Profile/Textbox_FileNo'), findTestData('HDFC Automation Data (1)').getValue(1, 1))
+WebUI.click(findTestObject('CVV_Module/Menu_risk'))
 
-WebUI.sendKeys(findTestObject('Customer Profile/Textbox_FileNo'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('CVV_Module/SubMenu_CCV'))
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('CVV_Module/Textbox_CCVFileNo'), findTestData('HDFC Automation Data (1)').getValue(2, 1))
+
+WebUI.sendKeys(findTestObject('CVV_Module/Textbox_CCVFileNo'), Keys.chord(Keys.ENTER))
 

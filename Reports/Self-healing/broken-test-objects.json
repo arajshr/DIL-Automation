@@ -1,3 +1,34 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CVV_Module/Page_Customer Profile/customer_fileno_fill",
+      "brokenLocator": "//a[@id\u003d\u0027b3-l2-20_9-MenuId\u0027]/div/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Fee Computation\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CVV_Module/Page_Customer Profile/customer_fileno_fill_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CVV_Module/Menu_risk",
+      "brokenLocator": "//*[@id\u003d\u0027b3-l2-107_3-Menu2\u0027]/a/div/div/*",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Skip to Content (Press Enter)\u0027])[1]/following::ul[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CVV_Module/Menu_risk_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CVV_Module/SubMenu_CCV",
+      "brokenLocator": "//*[@id\u003d\"b3-l2-160_3-Menu2\"]/ul/div/li/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027b3-PageLinks3\u0027]/ul",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CVV_Module/SubMenu_CCV_idRelative.png"
+    }
+  ]
 }
